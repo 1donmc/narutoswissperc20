@@ -1,8 +1,8 @@
 const hre = require("hardhat");
 const { sendSignedShieldedQuery } = require("./utils");
 
-const PK = "go-find-it";
-const deployedContractAddress = "0xA49e2928daaa19e2aDa427BaB3F6A1AbDad214B2";
+const PK = "";
+const deployedContractAddress = "0x125B515227f6ECE2398A0530cfA95f1c85B516Cc";
 
 async function main() {
   const PERC20 = await hre.ethers.getContractFactory("PERC20Sample");
